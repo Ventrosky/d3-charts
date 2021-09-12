@@ -3,7 +3,7 @@ async function drawLineChart() {
   // 1. Access data
 
   const dateParser = d3.timeParse("%Y-%m-%d");
-  let dataset = await d3.json("./Hanoi-weather_data.json");
+  let dataset = await d3.json("./../Hanoi-weather_data.json");
   dataset.sort((a,b) =>  dateParser(b.date) - dateParser(a.date));
 
   const fahrenheitToCelsius = (f) => (f - 32) / 1.8;
