@@ -1,0 +1,23 @@
+{
+  "name": "d3-charts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "d3.v6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ventrosky/d3-charts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ventrosky/d3-charts/issues"
+  },
+  "homepage": "https://github.com/Ventrosky/d3-charts#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
